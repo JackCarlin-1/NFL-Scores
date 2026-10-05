@@ -1,0 +1,5 @@
+/api/nfl-standings  https://site.api.espn.com/apis/v2/sports/football/nfl/standings  200
+/api/nfl-leaders  https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/statistics/byathlete  200
+/api/nfl-athlete/*  https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/:splat  200
+/api/nfl-search  https://site.web.api.espn.com/apis/search/v2  200
+/api/nfl/*  https://site.api.espn.com/apis/site/v2/sports/football/nfl/:splat  200
