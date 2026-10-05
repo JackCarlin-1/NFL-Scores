@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/api/nfl-standings", "destination": "https://site.api.espn.com/apis/v2/sports/football/nfl/standings" },
+    { "source": "/api/nfl-leaders", "destination": "https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/statistics/byathlete" },
+    { "source": "/api/nfl-athlete/:path*", "destination": "https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/:path*" },
+    { "source": "/api/nfl-search", "destination": "https://site.web.api.espn.com/apis/search/v2" },
+    { "source": "/api/nfl/:path*", "destination": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/:path*" }
+  ]
+}
